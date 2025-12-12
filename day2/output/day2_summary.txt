@@ -1,0 +1,1 @@
+implemented Java variables, data types, and console input using Scanner
