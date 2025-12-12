@@ -1,0 +1,7 @@
+.DS_Store
+*.class
+*.apk
+*.iml
+.gradle/
+.idea/
+build/
