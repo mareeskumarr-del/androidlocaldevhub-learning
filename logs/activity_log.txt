@@ -5,3 +5,12 @@
   summary: /Projects/AndroidLocalDevHub-Learning/day1/output/day1_summary.txt
 
 [2025-12-13 10:49:08] Day 1 commit pushed: Setup: added logs directory.
+
+[2025-12-13 20:53:08] Day 2 created
+  full_schedule: /Projects/AndroidLocalDevHub-Learning//day2/full_schedule.md
+  tasks: /Projects/AndroidLocalDevHub-Learning/day2/day2_tasks.md
+  notes: /Projects/AndroidLocalDevHub-Learning/day2/day2_notes.md
+  summary: /Projects/AndroidLocalDevHub-Learning/day2/day2_summary.txt
+
+[2025-12-13 22:52:29] Day 2 commit pushed: Day 2 complete: implemented Java variables, data types, and console input using Scanner
+ 

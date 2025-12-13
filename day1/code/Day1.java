@@ -1,5 +1,6 @@
 public class Day1 {
     public static void main(String[] args) {
+        
         String name = "Marees Kumar";
         int birth_year = 2003;
         int current_year = 2025;
