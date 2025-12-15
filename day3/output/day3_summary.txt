@@ -1,0 +1,31 @@
+---
+
+Enter Milk quantity : 1.5
+
+Large order
+
+Enter Milk Rate per liter  : 50
+
+Total cost: 75.0
+
+---
+
+Enter Milk quantity : 1
+
+Standard order
+
+Enter Milk Rate per liter  : 70
+
+Total cost: 70.0
+
+---
+
+Enter Milk quantity : 0.8
+
+Small order
+
+Enter Milk Rate per liter  : 70
+
+Total cost: 56.0
+
+---
