@@ -1,0 +1,52 @@
+Day 4: Implemented session-based aggregation and daily summary
+
+Output:
+
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 12
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 2
+
+Add another entry?
+1.yes
+0.no > 3
+Wrong Entry ..
+
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 101
+
+Add another entry?
+1.yes
+0.no > 1
+Last Entry has Invalid Quantity(Not in Applicable Rage)...
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 2
+
+Add another entry?
+1.yes
+0.no > 0
+
+ Daily Summary 
+
+Total Quantity: 16.0
+Total Cost: 1120.0
