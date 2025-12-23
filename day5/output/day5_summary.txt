@@ -1,0 +1,61 @@
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 1.2
+
+Enter Milk Rate per liter  : 71.2
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 101
+
+Enter Milk Rate per liter  : 34
+
+Add another entry?
+1.yes
+0.no > 1
+Invalid Quantity try again
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 34
+
+Enter Milk Rate per liter  : 70
+
+Add another entry?
+1.yes
+0.no > 3
+Invalid Entry Try Again..!
+
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 45
+
+Enter Milk Rate per liter  : 56
+
+Add another entry?
+1.yes
+0.no > 0
+
+--- Entries ---
+
+1) Quantity : 1.2 | Rate: 71.2 | Total: 85.44
+2) Quantity : 34.0 | Rate: 70.0 | Total: 2380.0
+3) Quantity : 45.0 | Rate: 56.0 | Total: 2520.0
+
+--- Final Totals ---
+
+Total Quantity: 80.2
+Total Amount: 4985.4400000000005
