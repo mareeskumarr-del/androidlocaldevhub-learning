@@ -1,0 +1,123 @@
+Day 5: Stored multiple milk entries in memory and generated structured summaries
+
+Output 1 :
+
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 1
+
+Enter Milk Rate per liter  : 0
+
+Add another entry?
+1.yes
+0.no > 1
+Invalid Rate try again..
+Entry Rejected !
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0.200
+
+Enter Milk Rate per liter  : 0
+
+Add another entry?
+1.yes
+0.no > 1
+Invalid Rate try again..
+Entry Rejected !
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0.200
+
+Enter Milk Rate per liter  : 12
+
+Add another entry?
+1.yes
+0.no > 1
+Invalid Quantity try again..
+Entry Rejected !
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 12
+
+Enter Milk Rate per liter  : 12
+
+Add another entry?
+1.yes
+0.no > 23
+Files Not Exist
+Files Created Now..!
+Invalid Entry Try Again..!
+
+
+Add another entry?
+1.yes
+0.no > 0
+
+--- Entries ---
+
+1) Quantity: 12.0 | Rate: 12.0 | Total: 144.0
+
+--- Final Totals ---
+
+Total Quantity: 12.0
+Total Amount: 144.0
+
+Output 2 :
+
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 1.2
+
+Enter Milk Rate per liter  : 70.34
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 101
+
+Enter Milk Rate per liter  : 34.23
+
+Add another entry?
+1.yes
+0.no > 1
+Invalid Quantity try again..
+Entry Rejected !
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 45.67
+
+Enter Milk Rate per liter  : 34.23
+
+Add another entry?
+1.yes
+0.no > 0
+
+--- Entries ---
+
+1) Quantity: 12.0 | Rate: 12.0 | Total: 144.0
+2) Quantity: 1.2 | Rate: 70.34 | Total: 84.408
+3) Quantity: 45.67 | Rate: 34.23 | Total: 1563.2840999999999
+
+--- Final Totals ---
+
+Total Quantity: 58.870000000000005
+Total Amount: 1791.6920999999998
+
+
+--- End of Output ---
