@@ -1,0 +1,46 @@
+
+Day 6: Implemented deterministic daily aggregation from in-memory records
+
+Output:
+
+marees@marees-Lenovo-E41-25:~/AndroidLocalDevHub-Learning$  cd /AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:30915 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/e45370060f402557ff030eb03a24636b/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day6 
+
+
+--- Daily Summary ---
+
+Total Quantity: 58.870000000000005
+Total Deliveries: 3
+Total Amount: 1791.6920999999998
+
+
+marees@marees-Lenovo-E41-25:~/AndroidLocalDevHub-Learning$  cd /AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:9653 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/e45370060f402557ff030eb03a24636b/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day6 
+
+
+--- Daily Summary ---
+
+Total Quantity: 58.870000000000005
+Total Deliveries: 3
+Total Amount: 1791.6920999999998
+
+
+marees@marees-Lenovo-E41-25:~/AndroidLocalDevHub-Learning$  cd /AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:11727 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/e45370060f402557ff030eb03a24636b/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day6 
+
+
+--- Daily Summary ---
+
+Total Quantity: 58.870000000000005
+Total Deliveries: 3
+Total Amount: 1791.6920999999998
+
+
+marees@marees-Lenovo-E41-25:~/AndroidLocalDevHub-Learning$  cd /AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:7421 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/e45370060f402557ff030eb03a24636b/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day6 
+
+
+--- Daily Summary ---
+
+Total Quantity: 58.870000000000005
+Total Deliveries: 3
+Total Amount: 1791.6920999999998
+
+
+marees@marees-Lenovo-E41-25:~/AndroidLocalDevHub-Learning$ 
