@@ -1,3 +1,3 @@
 1) Quantity: 12.0 | Rate: 12.0 | Total: 144.0
 2) Quantity: 1.2 | Rate: 70.34 | Total: 84.408
-3) Quantity: 45.67 | Rate: 34.23 | Total: 1563.2840999999999
+3) Quantity: 89.98 | Rate: 70.2 | Total: 6316.5960000000005
