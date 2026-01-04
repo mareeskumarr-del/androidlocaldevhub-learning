@@ -1,0 +1,17 @@
+
+--- Daily Summary ---
+
+Total Quantity: 56.0
+Total Deliveries: 4
+Total Amount: 3612.5
+
+--- End Of Summary ---
+
+
+1) Quantity: 12.5 | Rate: 85.0 | Total: 1062.5
+
+2) Quantity: 10.0 | Rate: 70.0 | Total: 700.0
+
+3) Quantity: 33.0 | Rate: 55.0 | Total: 1815.0
+
+4) Quantity: 0.5 | Rate: 70.0 | Total: 35.0

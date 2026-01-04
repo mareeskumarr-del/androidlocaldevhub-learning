@@ -1,0 +1,141 @@
+Output 1 :
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:29437 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day8.code.Day8 
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 12.5
+
+Enter Milk Rate per liter  : 85
+
+Add another entry?
+1.yes
+0.no > 1
+Files Not Exist
+Files Created Now..!
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 10
+
+Enter Milk Rate per liter  : 70
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 33
+
+Enter Milk Rate per liter  : 55
+
+Add another entry?
+1.yes
+0.no > 3
+Invalid Entry Try Again..!
+
+
+Add another entry?
+1.yes
+0.no > -1
+Invalid Entry Try Again..!
+
+
+Add another entry?
+1.yes
+0.no > .2
+Invalid Entry Try Again..!
+
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0.200
+
+Enter Milk Rate per liter  : 23
+
+Add another entry?
+1.yes
+0.no > 1
+Invalid Quantity try again..
+Entry Rejected !
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0.500
+
+Enter Milk Rate per liter  : 70
+
+Add another entry?
+1.yes
+0.no > 1
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 101
+
+Enter Milk Rate per liter  : 80
+
+Add another entry?
+1.yes
+0.no > 0
+Invalid Quantity try again..
+Entry Rejected !
+
+--- Entries ---
+
+1) Quantity: 12.5 | Rate: 85.0 | Total: 1062.5
+2) Quantity: 10.0 | Rate: 70.0 | Total: 700.0
+3) Quantity: 33.0 | Rate: 55.0 | Total: 1815.0
+4) Quantity: 0.5 | Rate: 70.0 | Total: 35.0
+
+--- Daily Summary ---
+
+Total Quantity: 56.0
+Total Deliveries: 4
+Total Amount: 3612.5
+
+--- End Of Summary ---
+
+Output 2 :
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:10141 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day8.code.Day8 
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0
+
+Enter Milk Rate per liter  : 0
+
+Add another entry?
+1.yes
+0.no > 0
+Invalid Rate try again..
+Entry Rejected !
+
+--- Entries ---
+
+1) Quantity: 12.5 | Rate: 85.0 | Total: 1062.5
+2) Quantity: 10.0 | Rate: 70.0 | Total: 700.0
+3) Quantity: 33.0 | Rate: 55.0 | Total: 1815.0
+4) Quantity: 0.5 | Rate: 70.0 | Total: 35.0
+
+--- Daily Summary ---
+
+Total Quantity: 56.0
+Total Deliveries: 4
+Total Amount: 3612.5
+
+--- End Of Summary ---
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$ 
