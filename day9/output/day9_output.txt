@@ -1,0 +1,59 @@
+Output 1 : Day 9
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:9755 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day9 
+
+Daily Summary
+Total Quantity: 56.0
+Total Deliveries: 4
+Total Cost: 3612.5
+
+Output 2 : Day 9
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:14179 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day9 
+
+Daily Summary
+Total Quantity: 56.0
+Total Deliveries: 4
+Total Cost: 3612.5
+
+Output 3 : Day 8
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:14239 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day8.code.Day8 
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 25
+
+Enter Milk Rate per liter  : 50
+
+Add another entry?
+1.yes
+0.no > 0
+
+--- Entries ---
+
+1) Quantity: 12.5 | Rate: 85.0 | Total: 1062.5
+2) Quantity: 10.0 | Rate: 70.0 | Total: 700.0
+3) Quantity: 33.0 | Rate: 55.0 | Total: 1815.0
+4) Quantity: 0.5 | Rate: 70.0 | Total: 35.0
+5) Quantity: 25.0 | Rate: 50.0 | Total: 1250.0
+
+--- Daily Summary ---
+
+Total Quantity: 81.0
+Total Deliveries: 5
+Total Amount: 4862.5
+
+--- End Of Summary ---
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$ 
+
+Output 4 : Day 9
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:14259 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin Day9 
+
+Daily Summary
+Total Quantity: 81.0
+Total Deliveries: 5
+Total Cost: 4862.5
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$ 
