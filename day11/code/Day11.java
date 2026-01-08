@@ -1,0 +1,299 @@
+import static java.nio.file.StandardOpenOption.*;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+class Accumulators {
+
+    double totalCost = 0;
+    double totalQuantity = 0;
+    boolean valid = false;
+    double entryCost = 0;
+    int entryCount = 0;
+    String testing = "";
+    int entryMin = 0;
+    int entryMax = 0;
+    double rate = 0;
+    double quantity = 0;
+    String before = "";
+    String afterOverRide = "no";
+    int overRideIndex = 0;
+    String entry = "";
+    double done = 0 ;
+    int Deliveries = 0;
+    String dailySummary = "";
+
+    // Pattern newPattern = Pattern.compile(
+        // "(\\d+)\\) Quantity: (\\d+\\.\\d+) \\| Rate: (\\d+\\.\\d+) \\| Total: (\\d+\\.\\d+)"
+    // );
+
+
+    Scanner scanner = new Scanner(System.in);
+    Pattern newPattern = Pattern.compile(
+        "ENTRY\n"+
+        "Quantity: (\\d+\\.\\d+)\n"+
+        "Rate: (\\d+\\.\\d+)\n" +
+        "Cost: (\\d+\\.\\d+)\n",
+        Pattern.MULTILINE
+    );
+
+
+
+
+    ArrayList<String> entryArrayList = new ArrayList<>();
+    Path wPath = Paths.get(
+        System.getProperty("user.dir"),
+        "day8",
+        "output",
+        "day8_records.txt"
+    );
+
+
+    void finalSummary(boolean overRide,int done){
+
+
+        if((done != 1) && (overRide != true) && (done == 0) ){
+
+
+            try {
+
+               if(Files.exists(wPath)){ 
+                    List<String> lines = Files.readAllLines(wPath);
+                    String entryPattern = String.join("\n", lines);
+                    Deliveries = 0;
+                    Matcher m = newPattern.matcher(entryPattern);
+                    System.out.println("\n");
+                    while(m.find()) {
+                        Deliveries++;
+                        // this.entryArrayList.add(m.group());
+                        // int index = Integer.parseInt(m.group(1));
+                        totalQuantity += Double.parseDouble(m.group(1));
+                        // double rate = Double.parseDouble(m.group(3));
+                        totalCost += Double.parseDouble(m.group(3));
+                        System.out.println(m.group());
+
+                    }
+                    dailySummary ="\nDaily Summary\nTotal Quantity: " + totalQuantity +"\nTotal Deliveries: " + Deliveries + "\nTotal Cost: " + totalCost;
+                    System.out.println(dailySummary);
+
+                }else{
+                    System.out.println("\nData file not found");
+                }
+
+
+            } catch (Exception e) {
+                System.out.println(e);
+                testing = "Something happen.. when Reading File ";
+            }
+        }
+
+        if((overRide != false) && (done != 1)){
+
+            
+
+            if(Files.exists(wPath)){   
+                try {
+
+                    if(entryMin != 0){                        
+                        
+                        // String dailySummary = "\n--- Daily Summary ---\n\nTotal Quantity: " + totalQuantity + "\nTotal Deliveries: " + entryCount + "\nTotal Amount: " + totalCost + "\n\n--- End Of Summary ---";
+                        Files.write(wPath, new byte[0]);
+                        for(int i = 0 ; i < entryArrayList.size() ; i++){
+                            System.out.println(entryArrayList.get(i)); 
+                            entry = entryArrayList.get(i);
+                            Files.writeString(
+                                wPath,
+                                "\n"+ afterOverRide +"\n",
+                                // StandardOpenOption.CREATE,
+                                StandardOpenOption.APPEND
+                            );  
+                        }
+                    
+                    }
+                
+                
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+
+            }
+        }
+    }
+
+
+    void totalCost(double quantity, double rate,boolean overRide,int overRideIndex,int done){
+
+        entryCost = quantity * rate ;
+        if(overRide != true){
+            try {
+                
+                if(Files.exists(wPath)){
+
+                    List<String> lines = Files.readAllLines(wPath);
+                    entryCount = 0;
+                    entryMax = 0;
+
+                    String entryPattern = String.join("\n", lines);
+                    Deliveries = 0;
+                    Matcher m = newPattern.matcher(entryPattern);
+                    while(m.find()) {
+                        Deliveries++;
+                        // int index = Integer.parseInt(m.group(1));
+                        // totalQuantity += Double.parseDouble(m.group(1));
+                        // double rate = Double.parseDouble(m.group(3));
+                        // totalCost += Double.parseDouble(m.group(3));
+                    }
+
+                    String newEntry =
+                    "ENTRY\n"+
+                    "Quantity: "+ quantity +"\n"+
+                    "Rate: "+ rate +"\n" +
+                    "Cost: "+ entryCost +"\n\n";
+                    entry = String.format(newEntry,quantity,rate,entryCost); 
+                    try (BufferedWriter writer =
+                    Files.newBufferedWriter(
+                                wPath,
+                                CREATE,
+                                WRITE,
+                                APPEND
+                            )) {
+                        writer.write(entry);
+                        writer.newLine();
+                    }catch(Exception e){
+                        System.out.println("Unable to write on file\n");
+                        System.err.println(e);    
+                    
+                    }
+
+                    // Files.write(wPath, new byte[0]);
+                    
+                    this.finalSummary(false, done);
+                }else{
+
+                    System.out.println("\nData file not found\n");
+
+                }  
+
+                
+            }catch (Exception e) {
+                System.out.println("Something happen..");
+                testing = "Something happen..";
+            }
+
+        }
+        else if(overRide != false){
+
+            String newEntry =
+            "ENTRY\n"+
+            "Quantity: "+ quantity +"\n"+
+            "Rate: "+ rate +"\n" +
+            "Cost: "+ entryCost +"\n\n";
+            afterOverRide = String.format(newEntry,quantity,rate,entryCost);      
+
+        }
+       
+    }
+
+
+    void inputValidator(double quantity, double rate,boolean overRide,int overRideIndex,int done){
+
+        if(overRide != true){
+
+            if ((quantity <=100 && quantity >=0.300 && rate >0 )) {
+                this.totalCost(quantity,rate,false,0,done);
+            }else if(!(quantity <=100 && quantity >=0.300) &&  (rate >0)) {
+                System.out.println("Invalid Quantity try again..");
+                System.out.println("Entry Rejected !\n");
+                this.finalSummary(overRide, done);
+
+            }else {
+                System.out.println("Invalid Rate try again..");
+                System.out.println("Entry Rejected !\n");
+                this.finalSummary(overRide, done);
+
+            }
+
+        }
+
+        if(overRide != false){
+
+            if ((quantity <=100 && quantity >=0.300 && rate >0 )) {
+                this.totalCost(quantity,rate,true,overRideIndex,done);
+            }else if(!(quantity <=100 && quantity >=0.300) &&  (rate >0)) {
+                System.out.println("Invalid Quantity ..");
+                System.out.println("Entry Rejected !");
+                this.finalSummary(true,0);
+            }else {
+                System.out.println("Invalid Rate ..");
+                System.out.println("Entry Rejected !");
+                this.finalSummary(true,0);
+            }
+        }
+
+    }
+
+    void inputData(){
+        
+        try{
+        
+            // default
+            // rate = 71.1;
+            // quantity = 5.2;
+            done = 0 ;
+
+            if(Files.exists(wPath)){
+
+                // while (done != 0 && done == 1) {
+                System.out.print("\n" + "Enter Milk quantity: \nmax:100\nmin: 0.300\n> ");
+                double quantity = scanner.nextDouble();
+                System.out.print("\n" + "Enter Milk Rate per liter  : ");
+                double rate = scanner.nextDouble();
+                // System.out.print("\n" + "Add another entry?\n1.yes\n0.no > ");
+                // done = scanner.nextDouble();
+                int now = (int) done;            
+                // while(done != 0 && done !=1) {
+
+                //     System.out.println("Invalid Entry Try Again..!\n");      
+                //     System.out.print("\n" + "Add another entry?\n1.yes\n0.no > ");
+                //     done = scanner.nextDouble();
+                // }  
+                // }
+                this.inputValidator(quantity, rate, false,0,now);  
+
+
+            }else {
+                System.out.println("\nData file not found\n");
+            }
+        }catch(Exception e){
+
+            System.out.println("unable to call scanner\n");
+
+        }
+    }    
+}
+// Day 11 Java starter file
+public class Day11 {
+    public static void main(String[] args) {
+        // System.out.println("Day 11: Start coding here");
+        
+        Accumulators u = new Accumulators();
+        // u.inputData();
+        // try {
+        //     Thread.sleep(3000);
+        // } catch (InterruptedException e) {
+        //     Thread.currentThread().interrupt();
+        // }
+
+        u.finalSummary(false,0);
+
+    }
+}
