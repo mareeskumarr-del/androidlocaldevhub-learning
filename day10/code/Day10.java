@@ -1,3 +1,5 @@
+package day10.code;
+
 import static java.nio.file.StandardOpenOption.*;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -11,6 +13,25 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+public class Day10 {
+    public static void main(String[] args){
+
+
+        Accumulators u = new Accumulators();
+        u.inputData();
+
+        // try {
+        //     Thread.sleep(3000);
+        // } catch (InterruptedException e) {
+        //     Thread.currentThread().interrupt();
+        // }
+
+        // u.finalSummary(false,0);
+        // u.overRide("no",1,0,0); Removed
+    }
+}
+
 
 class Accumulators {
 
@@ -348,23 +369,4 @@ class Accumulators {
 
         }
     }    
-}
-
-
-public class Day10 {
-    public static void main(String[] args){
-
-
-        Accumulators u = new Accumulators();
-        u.inputData();
-
-        // try {
-        //     Thread.sleep(3000);
-        // } catch (InterruptedException e) {
-        //     Thread.currentThread().interrupt();
-        // }
-
-        // u.finalSummary(false,0);
-        // u.overRide("no",1,0,0); Removed
-    }
 }

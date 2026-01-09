@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package day2.code;
 
+import java.util.Scanner;
 
 public class Day2 {
     public static void main(String[] args) {

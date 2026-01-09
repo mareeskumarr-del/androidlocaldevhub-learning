@@ -1,7 +1,5 @@
 package day5.code;
 
-
-
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -10,6 +8,19 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+public class Day5 {
+
+    public static void main(String[] args) {
+
+
+        Accumulators u = new Accumulators();
+        u.inputData();
+        u.finalSummary();
+    }
+
+}
+
 
 class Accumulators {
 
@@ -225,21 +236,4 @@ class Accumulators {
 
     }
         
-}
-
-
-public class Day5 {
-
-    public static void main(String[] args) {
-
-
-        Accumulators u = new Accumulators();
-        u.inputData();
-        u.finalSummary();
-
-
-
-
-    }
-
 }

@@ -3,6 +3,16 @@ package day4.code;
 import java.util.Scanner;
 
 
+public class Day4 {
+
+    public static void main(String[] args) {
+
+        Accumulators ac = new Accumulators();
+        ac.newEntry();   
+    }
+}
+
+
 class Accumulators {
 
     //State Live Here!
@@ -92,18 +102,5 @@ class Accumulators {
         System.out.println("\n Daily Summary \n");
         System.out.println("Total Quantity: " + totalQuantity);
         System.out.println("Total Cost: " + totalCost);
-    }
-}
-
-
-public class Day4 {
-
-    public static void main(String[] args) {
-
-        Accumulators ac = new Accumulators();
-        ac.newEntry();
-
-        
- 
     }
 }

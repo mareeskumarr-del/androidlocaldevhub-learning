@@ -1,3 +1,5 @@
+package day11.code;
+
 import static java.nio.file.StandardOpenOption.*;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -11,6 +13,23 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+// Day 11 Java starter file
+public class Day11 {
+    public static void main(String[] args) {
+        // System.out.println("Day 11: Start coding here");
+        
+        Accumulators u = new Accumulators();
+        // u.inputData();
+        // try {
+        //     Thread.sleep(3000);
+        // } catch (InterruptedException e) {
+        //     Thread.currentThread().interrupt();
+        // }
+
+        u.finalSummary(false,0);
+
+    }
+}
 class Accumulators {
 
     double totalCost = 0;
@@ -279,21 +298,4 @@ class Accumulators {
 
         }
     }    
-}
-// Day 11 Java starter file
-public class Day11 {
-    public static void main(String[] args) {
-        // System.out.println("Day 11: Start coding here");
-        
-        Accumulators u = new Accumulators();
-        // u.inputData();
-        // try {
-        //     Thread.sleep(3000);
-        // } catch (InterruptedException e) {
-        //     Thread.currentThread().interrupt();
-        // }
-
-        u.finalSummary(false,0);
-
-    }
 }

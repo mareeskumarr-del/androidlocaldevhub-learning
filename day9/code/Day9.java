@@ -1,3 +1,5 @@
+package day9.code;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -8,6 +10,19 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+public class Day9 {
+    public static void main(String[] args) {
+        // System.out.println("Day 9: Start coding here");
+
+        Accumulators u = new Accumulators();
+        // u.inputData();
+        u.finalSummary(false,0);
+        // u.overRide("no",1,0,0);
+
+
+    }
+}
 
 class Accumulators {
 
@@ -385,17 +400,4 @@ class Accumulators {
 
         }
     }    
-}
-
-public class Day9 {
-    public static void main(String[] args) {
-        // System.out.println("Day 9: Start coding here");
-
-        Accumulators u = new Accumulators();
-        // u.inputData();
-        u.finalSummary(false,0);
-        // u.overRide("no",1,0,0);
-
-
-    }
 }

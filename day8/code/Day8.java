@@ -13,6 +13,17 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+public class Day8 {
+    public static void main(String[] args) {
+        // System.out.println("Day 8: Start coding here");
+        Accumulators u = new Accumulators();
+        u.inputData();
+        // u.finalSummary(false,0);
+        // u.overRide("no",1,0,0);
+        
+
+    }
+}
 class Accumulators {
 
     double totalCost = 0;
@@ -436,15 +447,4 @@ class Accumulators {
 
         }
     }    
-}
-public class Day8 {
-    public static void main(String[] args) {
-        // System.out.println("Day 8: Start coding here");
-        Accumulators u = new Accumulators();
-        u.inputData();
-        // u.finalSummary(false,0);
-        // u.overRide("no",1,0,0);
-        
-
-    }
 }

@@ -1,6 +1,5 @@
 package day7.code;
 
-
 // import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,6 +11,15 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+public class Day7 {
+    public static void main(String[] args) {
+        Accumulators u = new Accumulators();
+        // u.inputData();
+        // u.finalSummary();
+        u.overRide("no",1,0);
+    }
+}
 
 class Accumulators {
 
@@ -339,13 +347,4 @@ class Accumulators {
             }
         }
     }    
-}
-
-public class Day7 {
-    public static void main(String[] args) {
-        Accumulators u = new Accumulators();
-        // u.inputData();
-        // u.finalSummary();
-        u.overRide("no",1,0);
-    }
 }
