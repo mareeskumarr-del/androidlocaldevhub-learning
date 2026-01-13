@@ -1,0 +1,6 @@
+ENTRY
+Quantity: 1.7
+Rate: 67.3
+Cost: 114.41
+
+

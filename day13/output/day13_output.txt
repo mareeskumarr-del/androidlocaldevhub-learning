@@ -1,0 +1,221 @@
+Output 1 : Day 13
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:4013 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  1212-12-12
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 34.5
+
+Enter Milk Rate per liter  : 55
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=34.5, Cost=1897.5
+-------------
+Total Entries: 1
+Total Quantity: 34.5
+Total Cost: 1897.5
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:33069 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  1212-12-21
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 1.7
+
+Enter Milk Rate per liter  : 67.3
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=1.7, Cost=114.41
+-------------
+Total Entries: 1
+Total Quantity: 1.7
+Total Cost: 114.41
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:16287 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  1212-12-12
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 56.7
+
+Enter Milk Rate per liter  : 71.234
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=34.5, Cost=1897.5
+Entry 2: Quantity=56.7, Cost=4038.9678
+-------------
+Total Entries: 2
+Total Quantity: 91.2
+Total Cost: 5936.4678
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:25945 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  2026-01-31
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 72
+
+Enter Milk Rate per liter  : 45
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=72.0, Cost=3240.0
+-------------
+Total Entries: 1
+Total Quantity: 72.0
+Total Cost: 3240.0
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:5041 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  2026-01-31
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 12
+
+Enter Milk Rate per liter  : 0
+Invalid Rate try again..
+Entry Rejected !
+
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=72.0, Cost=3240.0
+-------------
+Total Entries: 1
+Total Quantity: 72.0
+Total Cost: 3240.0
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:13181 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  2026-01-31
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 12
+
+Enter Milk Rate per liter  : 70
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=72.0, Cost=3240.0
+Entry 2: Quantity=12.0, Cost=840.0
+-------------
+Total Entries: 2
+Total Quantity: 84.0
+Total Cost: 4080.0
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$ 
+
+Output 2 : Day 13
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:31683 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  1212-12-12
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0
+
+Enter Milk Rate per liter  : 0
+Invalid Rate try again..
+Entry Rejected !
+
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=34.5, Cost=1897.5
+Entry 2: Quantity=56.7, Cost=4038.9678
+-------------
+Total Entries: 2
+Total Quantity: 91.2
+Total Cost: 5936.4678
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:6959 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  2026-01-31
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0
+
+Enter Milk Rate per liter  : 0
+Invalid Rate try again..
+Entry Rejected !
+
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=72.0, Cost=3240.0
+Entry 2: Quantity=12.0, Cost=840.0
+-------------
+Total Entries: 2
+Total Quantity: 84.0
+Total Cost: 4080.0
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:20513 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  1212-12-21
+
+Enter Milk quantity: 
+max:100
+min: 0.300
+> 0
+
+Enter Milk Rate per liter  : 0
+Invalid Rate try again..
+Entry Rejected !
+
+
+
+
+Daily Report
+-------------
+Entry 1: Quantity=1.7, Cost=114.41
+-------------
+Total Entries: 1
+Total Quantity: 1.7
+Total Cost: 114.41
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$ 
+
+Output 3 : Day 13
+
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$  cd /Projects/AndroidLocalDevHub-Learning ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:9129 -XX:+ShowCodeDetailsInExceptionMessages -cp /.config/Code/User/workspaceStorage/c10402b237193dcf09df1555367872f6/redhat.java/jdt_ws/AndroidLocalDevHub-Learning_37a67edf/bin day13.code.Day13 
+
+Enter Date of Entry (yyyy-MM-dd):  1212-12-32
+
+Invalid date format
+marees@marees-Lenovo-E41-25:~/Projects/AndroidLocalDevHub-Learning$ 
